@@ -3,10 +3,11 @@ package Task3;
 public class Person {
     protected String name;
 
-    public Person() {
+    public Person(String name) {
+        this.name = name;
     }
 
-    public boolean addCourse(){
+    public boolean addCourse(String course){
         return true;
     }
 
